@@ -11,6 +11,8 @@ pip install -e .
 xiangqi play --level normal
 ```
 
+仓库的 `media/` 目录包含 AI 对战和 Python API 实机演示视频；使用 `requirements-demo.txt` 与 `scripts/create_demo_videos.py` 可以重新生成。
+
 公共入口：
 
 ```python

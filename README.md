@@ -47,6 +47,19 @@ xiangqi analyze "rnbakabnr/9/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/9/RNBAKABNR w -
 xiangqi validate "rnbakabnr/9/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/9/RNBAKABNR w - - 0 1"
 ```
 
+## Demo videos
+
+仓库中提供了由真实棋盘和 AI 运行生成的短视频：
+
+- [AI 对战演示](media/xiangqi-ai-match.mp4)
+- [Python API 演示](media/xiangqi-python-api.mp4)
+
+如需重新生成视频，请安装 `requirements-demo.txt` 后运行：
+
+```bash
+python scripts/create_demo_videos.py
+```
+
 ## Architecture
 
 - `xiangqi.board`: 棋盘、棋子、走法和规则判定
